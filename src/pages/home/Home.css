@@ -1,0 +1,333 @@
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    padding: 40px 0px;
+}
+
+.hero .hero_menu h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.hero .hero_menu h3:hover {
+    color: #DB4444;
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.days_work .container {
+    padding: 40px 0px;
+}
+
+.today {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    color: #DB4444;
+    margin-bottom: 10px;
+}
+
+.today .row {
+    width: 15px;
+    height: 25px;
+    background-color: #DB4444;
+    border-radius: 2px;
+}
+
+.today h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.days_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.days_card .time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: center;
+    margin-left: -400px;
+}
+
+.time h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.time h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.days_card span {
+    font-size: 30px;
+    color: #DB4444;
+}
+
+.day_slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.day_slider button {
+    border-radius: 50%;
+    padding: 20px 0px;
+    color: #DB4444;
+    border-color: #DB4444;
+}
+
+.days_work .products_card {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.days_work .btn {
+    border-color: #DB4444;
+    background-color: white;
+    color: #DB4444;
+    display: flex;
+    margin: 20px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.days_work .btn:hover {
+    background-color: #DB4444;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.blow {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.cotegories_slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.cotegories_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.cotegories_card .cotegories_box {
+    width: 23%;
+    border: 1px solid #0000004D;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+
+.cotegories_box:hover {
+    background-color: #DB4444;
+    color: white;
+    border-color: #DB4444;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.cotegories_box svg {
+    font-size: 50px;
+    color: #3e3c3c;
+}
+
+.cotegories_box:hover svg {
+    color: white;
+}
+
+.cotegories_box h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.selling_products .container {
+    padding: 50px 0px;
+}
+
+.selling_products .selling_view {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.selling_view .btn {
+    border-color: #DB4444;
+    background-color: white;
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.selling_view .btn:hover {
+    background-color: #DB4444;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.selling_products .sellings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.selling_products .rek {
+    width: 100%;
+    height: 60vh;
+    margin: 50px 0px;
+}
+
+.products_all .all_pro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.products_all .btn {
+    border-color: #DB4444;
+    background-color: white;
+    color: #DB4444;
+    display: flex;
+    margin: 20px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.products_all .btn:hover {
+    background-color: #DB4444;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.new_collages .container {
+    padding: 50px 0px;
+}
+
+.new_collages .blow {
+    margin-bottom: 20px;
+}
+
+.collages_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collages_card .part_one {
+    width: 48%;
+    height: 70vh;
+}
+
+.collages_card .part_one img {
+    width: 100%;
+    height: 100%;
+}
+
+.collages_card .part_two {
+    width: 48%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.part_two .part_two__top {
+    height: 52%;
+}
+
+.part_two .part_two__top img {
+    height: 100%;
+    width: 100%;
+}
+
+.part_two .part_two__bottom {
+    height: 46%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part_two .part_two__bottom img {
+    height: 100%;
+    width: 49%;
+}
+
+.new_collages .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 70px 0px;
+
+}
+
+.new_collages .services .services_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.services_card h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.services_card h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+ 
+

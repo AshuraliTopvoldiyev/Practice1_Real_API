@@ -1,0 +1,138 @@
+.product {
+    width: 23%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product .product_img {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.product .product_img img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.product .product_info {
+    padding: 15px 0px;
+}
+
+.product .product_info h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.product .product_info .prices {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.product .product_info .prices h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #DB4444;
+}
+
+.product .product_info .prices h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00000083;
+    text-decoration: line-through;
+
+}
+
+.product .product_info .reyting {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.product .product_info .reyting svg {
+    font-size: 20px;
+}
+
+.product .product_info .reyting h5 {
+    color: #00000083;
+}
+
+
+.product_img .like_icons {
+    position: absolute;
+    top: 10px;
+    right: -110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.product:hover .like_icons{
+    right: 10px;
+    transition: all 0.2s ease-in-out;
+     
+}
+
+.like_icons button {
+    padding: 8px 8px 5px;
+    border-radius: 50%;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.foiz{
+    position: absolute;
+    top: 10px ;
+    left: -110px;
+    background-color: #DB4444;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.product:hover .foiz{
+    left: 10px;
+    transition: all 0.2s ease-in-out;
+     
+}
+
+.foiz h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.product .add{
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    background-color: #000;
+    color: #FFFFFF;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.product:hover .add{
+    bottom: 0px;
+    transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,120 @@
+.footer {
+    padding: 40px 0px;
+    background-color: #000000;
+}
+
+.footer .container .links_box {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer_links form {
+    background-color: inherit;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 12px 10px 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_links form input {
+    color: #FFFFFF;
+    background-color: inherit;
+    outline: none;
+    border: none;
+}
+
+.footer_links form svg{
+    color: #FFFFFF;
+}
+
+.footer_links form input::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.links_box .footer_links h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+
+.links_box .footer_links h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    color: #FFFFFF;
+}
+
+.links_box .footer_links h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 12px;
+    color: #FFFFFF;
+}
+
+.footer_links .scaner_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.scaner_links .play_markets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.footer_links .footer_icons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 25px;
+}
+
+.footer_icons svg {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footer_icons svg:hover {
+    transform: scale(1.1);
+    color: #DB4444;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.footer .line {
+    background-color: rgb(79, 76, 76);
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.footer .bottom_footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #F9F9F933;
+
+}
