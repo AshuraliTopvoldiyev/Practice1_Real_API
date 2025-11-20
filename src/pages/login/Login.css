@@ -48,11 +48,10 @@
     width: 100%;
 }
 
-.signUp_info .btn,
-.signUp_info .btn_google {
+.signUp_info .login_part .btn_loginPage {
     width: 100%;
     color: #DB4444;
-    border-color: #DB4444;
+    border-color: #DB4444 !important;
     padding: 10px 0px;
     margin: 10px 0px;
     text-transform: capitalize;
@@ -82,7 +81,7 @@
 
 }
 
-.login_part h3{
+.login_part h3 {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -90,13 +89,13 @@
     letter-spacing: 1px;
 }
 
-.login_part button{
+.login_part button {
     color: #000;
     text-transform: capitalize;
     /* border-color: white; */
     background-color: inherit;
 }
 
-.login_part button:hover{
+.login_part button:hover {
     color: #DB4444;
 }

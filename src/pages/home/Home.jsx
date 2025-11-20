@@ -9,21 +9,21 @@ import { BsSmartwatch } from 'react-icons/bs'
 import { IoCameraOutline, IoGameControllerOutline } from 'react-icons/io5'
 import { CiHeadphones } from 'react-icons/ci'
 
-function Home() {
+function Home({ categoryData, getData }) {
     return (
         <>
             <section className="hero">
                 <div className="container">
                     <div className="hero_menu">
-                        <h3>Woman’s Fashion</h3>
-                        <h3>Men’s Fashion</h3>
-                        <h3>Electronics</h3>
-                        <h3>Home & Lifestyle</h3>
-                        <h3>Medicine</h3>
-                        <h3>Sports & Outdoor</h3>
-                        <h3>Baby’s & Toys</h3>
-                        <h3>Groceries & Pets</h3>
-                        <h3>Health & Beauty</h3>
+                        {
+                            categoryData?.map((item, i) => {
+                                return <div className='menu_item'>
+                                    <img src={item.image} alt="" />
+                                    <h3 key={i}>{item.title}</h3>
+                                </div>
+                            })
+                        }
+
                     </div>
                     <div className="hero_img">
                         {/* <div className="hero_infoPart">
@@ -74,10 +74,11 @@ function Home() {
                         </div>
                     </div>
                     <div className="products_card">
-                        <Product />
-                        <Product />
-                        <Product />
-                        <Product />
+                        {
+                            getData?.slice(0,4).map((item)=>{
+                                return <Product  item={item} />
+                            })
+                        }
                     </div>
 
                     <Button className='btn' variant='outlined'> View All Products</Button>
@@ -136,10 +137,11 @@ function Home() {
                         <Button className='btn' variant='outlined'>View All</Button>
                     </div>
                     <div className="sellings">
-                        <Product />
-                        <Product />
-                        <Product />
-                        <Product />
+                          {
+                            getData?.slice(4,8).map((item)=>{
+                                return <Product  item={item} />
+                            })
+                        }
                     </div>
 
                     <img className='rek' src="/img/reklama.png" alt="" />
@@ -159,14 +161,11 @@ function Home() {
                         </div>
                     </div>
                     <div className="all_pro">
-                        <Product />
-                        <Product />
-                        <Product />
-                        <Product />
-                        <Product />
-                        <Product />
-                        <Product />
-                        <Product />
+                          {
+                            getData?.slice(0,8).map((item)=>{
+                                return <Product  item={item} />
+                            })
+                        }
                     </div>
                     <Button className='btn' variant='outlined'> View All Products</Button>
 

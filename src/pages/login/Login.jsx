@@ -1,11 +1,10 @@
 import React from 'react'
-import "./Signup.css"
+import "./Login.css"
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
 import { FcGoogle } from 'react-icons/fc';
-import { Link } from 'react-router-dom';
 
-function Signup() {
+function Login() {
     return (
         <>
             <section className="signUp">
@@ -14,22 +13,23 @@ function Signup() {
                         <img src="/img/singup.png" alt="" />
                     </div>
                     <div className="signUp_info">
-                        <h1>Create an account</h1>
+                        <h1>Log in to Exclusive</h1>
                         <h4>Enter your details below</h4>
-                        <TextField className="standard_basic" label="Name" variant="standard" />
                         <TextField className="standard_basic" label="Email or Phone Number" variant="standard" />
                         <TextField className="standard_basic" label="Password" variant="standard" />
-                        <Button className='btn' variant='outlined'> Create Account</Button>
-                        <Button className='btn_google' variant='outlined'> <FcGoogle />Sign up with Google</Button>
+
+
                         <div className="login_part">
-                            <h3>Already have account?</h3>
-                            <Link to={"/login"}><Button className='btn_login' variant='text'> Log in</Button></Link>
+                            <Button className='btn_loginPages' variant='outlined'> Log In</Button>
+
+                            <Button className='btn_login' variant='text'> Forget Password?</Button>
                         </div>
                     </div>
                 </div>
             </section>
+
         </>
     )
 }
 
-export default Signup
+export default Login

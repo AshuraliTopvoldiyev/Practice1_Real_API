@@ -1,9 +1,30 @@
 .hero .container {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: start;
     gap: 50px;
     padding: 40px 0px;
+}
+
+.hero .hero_menu {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero .hero_menu .menu_item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.hero .hero_menu .menu_item img {
+    width: 40px;
+
+
 }
 
 .hero .hero_menu h3 {
@@ -314,7 +335,7 @@
     gap: 8px;
 }
 
-.services_card h3{
+.services_card h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -322,12 +343,10 @@
     letter-spacing: 1px;
 }
 
-.services_card h4{
+.services_card h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 32px;
     letter-spacing: 1px;
 }
- 
-
